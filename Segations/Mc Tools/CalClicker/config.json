@@ -1,0 +1,8 @@
+{       
+    "MC_WINDOW_NAME": "Minecraft 1.8.9",
+    "STOP_KEY": "=",
+    "RIGHT_MAX_DELAY": 0.21,
+    "RIGHT_MIN_DELAY": 0.07,
+    "LEFT_MAX_DELAY": 0.24,
+    "LEFT_MIN_DELAY": 0.06
+}
