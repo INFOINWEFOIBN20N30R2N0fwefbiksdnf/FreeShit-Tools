@@ -1,1 +1,1 @@
-Checks for available Usernames 
+Checks for available Usernames with your input
