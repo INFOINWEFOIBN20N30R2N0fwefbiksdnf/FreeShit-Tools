@@ -1,0 +1,30 @@
+{
+    "window name":"Discord",
+    "blockhitting":
+        {
+            "keybind":"z",
+            "randomized":true,
+            "+/- ran":25,
+            "ms between hits":100,
+            "ms between block&hit":10,
+            "rclick duration ms":2.5
+        },
+    "rclick":
+        {
+            "keybind":"c",
+            "randomized":true,
+            "+/- ran":25,
+            "ms between clicks":100
+        },
+    "lclick":
+        {
+            "keybind":"x",
+            "randomized":true,
+            "+/- ran":25,
+            "ms between clicks":100
+        },
+    "shutdown":
+        {
+            "keybind":"alt"
+        }
+}
