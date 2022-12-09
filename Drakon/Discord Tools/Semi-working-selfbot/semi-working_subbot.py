@@ -1,10 +1,25 @@
 from time import sleep
-from colorama import Fore
+from colorama import Fore,init
 import random, string, pyautogui
 
+
+init()
+banner = f"""
+{colorama.Fore.RED}███████╗██████╗ ███████╗███████╗███████╗██╗  ██╗██╗████████╗
+{colorama.Fore.GREEN}██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝██║  ██║██║╚══██╔══╝  
+{colorama.Fore.RED}█████╗  ██████╔╝█████╗  █████╗  ███████╗███████║██║   ██║      
+{colorama.Fore.GREEN}██╔══╝  ██╔══██╗██╔══╝  ██╔══╝  ╚════██║██╔══██║██║   ██║    
+{colorama.Fore.RED}██║     ██║  ██║███████╗███████╗███████║██║  ██║██║   ██║     
+{colorama.Fore.GREEN}╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝ 
+{colorama.Fore.RED}Created By FreeShit ║ Dev: segations#2344 ║ getfreeshit.today
+{colorama.Fore.GREEN}                      Version 2.0.0
+"""
+print(banner)
 chars = string.ascii_letters
 
 churl = input(f"{Fore.RED}enter channel url: ")
+
+
 
 def sub(curl):
     pyautogui.click(x=338, y=15)
